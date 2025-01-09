@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int a[5],i;
-    for(i=1;i<5;i++)         // using loop
+    for(i=0;i<5;i++)         // using loop
     {   cout<<"enter:-";
         cin>>a[i];
     }
@@ -14,3 +14,29 @@ int main() {
     }
     
 }
+int main() {
+    int a[5],i;
+   a[0]=1;               /// using indexing
+  a[1]=2;
+  a[2]=4;
+  a[3]=6;
+  a[4]=8;
+    
+    for(i=0;i<5;i++)
+    {
+        cout<<a[i];
+    }
+    
+}
+int main() {
+    int i,a[5]={1,2,4,6,8};
+  
+    
+    for(i=0;i<5;i++)
+    {
+        cout<<a[i];
+    }
+    
+}
+
+
