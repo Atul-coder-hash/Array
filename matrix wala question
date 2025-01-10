@@ -1,4 +1,4 @@
-                                     // Adding value in matrix
+  // Adding value in matrix \\
 
 #include<iostream>
 using namespace std;                
@@ -32,7 +32,10 @@ for(i=0;i<=1;i++)
 
 }
 
-                                                 // Addition of two matrix
+
+
+
+     // Addition of two matrix \\
 #include<iostream>
 using namespace std;
 
