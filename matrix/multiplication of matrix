@@ -1,0 +1,79 @@
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+int i,j,a[2][2],b[2][2],c[2][2],k;
+
+for(i=0;i<2;i++)
+{
+    for(j=0;j<2;j++)
+    {
+        cout<<"enter value for a:-";
+        cin>>a[i][j];
+    }
+}
+
+
+for(i=0;i<2;i++)
+{
+    for(j=0;j<2;j++)
+    {
+        
+        cout<<a[i][j]<<"\t";
+    
+        
+    }
+         cout<<"\n";
+   
+}
+
+
+cout<<"\n";
+for(i=0;i<2;i++)
+{
+    for(j=0;j<2;j++)
+    {
+        cout<<"enter value for b:-";
+        cin>>b[i][j];
+    }
+}
+for(i=0;i<2;i++)
+{
+    for(j=0;j<2;j++)
+    {
+        
+        cout<<b[i][j]<<"\t";
+    
+        
+    }
+         cout<<"\n";
+   
+}
+                    for( i = 0; i <2; i++ ) 
+	 	 	 	 	{ 
+	 	 	 	 	 	for(j = 0; j<2; j++) 
+	 	 	 	 	 	{ 	 	 
+	 	 	 	 	 	 	c[i][j] = 0; 
+	 	 	 	 	 	 	for(k = 0; k<2; k++) 
+	 	 	 	 	 	 	{ 	 	 	 	 
+	 	 	 	 	 	 	 	c[i][j] = c[i][j] + (a[i][k] * b[k][j]); 
+	          	 	 	 	 	} 
+	 	 	 	 	 	} 
+	 	 	 	 	} 
+                   
+	 	 	 	 	for( i = 0; i < 2; i++ ) 
+	 	 	 	 	{ 
+	 	 	 	 	 	for(j = 0; j<2; j++) 
+	 	 	 	 	 	{ 	 	 	 	 
+	          	 	 	 	 	cout<< c[i][j] << "\t"; 
+	 	 	 	 	 	} 
+	 	 	 	 	 	cout<<endl; 
+	 	 	 	 	} 
+
+
+
+
+
+}
