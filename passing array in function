@@ -1,0 +1,30 @@
+
+
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+   int a[5],i,s;
+   int sum(int[],int);
+   for(i=0;i<5;i++)
+   {cout<<"enter number:-";
+       cin>>a[i];
+   }
+   s= sum(a,5);
+   cout<<"sum is="<<s;
+}
+
+int sum(int a[],int size)
+{
+    int add=0;
+    for(int j=0;j<size;j++)
+    {
+        add= add+a[j];
+        
+    }
+    
+    return(add);
+
+}
