@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int *a[2];
+    int i,k=2,m=3;
+    a[0]=&k;
+    a[1]= &m;
+    for(i=0;i<2;i++)
+    {
+        cout<<*a[i]<<endl;
+        
+    }
+
+}
