@@ -1,0 +1,43 @@
+                                                                    // MY logic
+
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+   int a[5],i,*ptr;
+   int sum(int[],int);
+   for(i=0;i<5;i++)
+   {cout<<"enter number:-";
+       cin>>a[i];
+   }
+   for(i=0;i<5;i++)
+   {
+       ptr=&a[i];
+       cout<<*ptr;
+   }
+   
+}
+
+                                                                // Sir logic 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr1[5], i ;
+int *ptr ;
+
+cout << "\n Enter the numbers:-" ;
+for( i = 0; i < 5; i++ )
+{
+cin >> arr1[i];
+}
+ptr = arr1 ;
+for( i = 0; i < 5; i++)
+{
+cout << *ptr ;
+ptr++ ;
+}
+}
