@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+      int x,n,i;
+      cout<<"enter size of array:-";
+      cin>>n;
+      int *a= new int[n];
+
+      for(x=0;x<n;x++)
+      {
+        cin>>a[x];
+
+      }
+      for(x=0;x<n;x++)
+      {
+        cout<<a[x];
+
+      }
+
+}
