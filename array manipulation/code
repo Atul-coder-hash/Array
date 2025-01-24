@@ -7,7 +7,7 @@ void insertion(int a[],int size,int position)
     {
         a[i]=a[i-1];
     }
-    //size++;
+    //size++;(if you take size greater than size of array you donit require this)
     cout<<"enter element:-";
     cin>>a[position];
     
