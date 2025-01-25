@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void deletion(int a[],int index,int size)
+void deletion(int a[],int index,int &size)
 {int i;
     for(i=index;i<size;i++)
     {
