@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+void print(int a[],int size)
+{int i=0;
+for(i=0;i<size;i++)
+{
+    cout<<a[i];
+}
+}
+
+void updation(int a[],int element,int index,int size)
+{int i;
+a[index]=element;
+    
+    print(a,size);
+    }
+
+
+
+int main()
+{int a[]={1,4,8,9,3};
+int size= 5;
+int index;
+int update;
+cout<<"enter index:-";
+cin>>index;
+cout<<"enter element for update:-";
+cin>>update;
+updation(a,update,index,size);
+}
