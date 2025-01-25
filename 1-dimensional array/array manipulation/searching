@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+void searching(int a[],int element,int size)
+{int i;
+    for(i=0;i<size;i++)
+    {
+    if(a[i]==element)
+    {
+        cout<<"index of searched element:-"<<i;
+    } 
+    }
+    }
+
+
+int main()
+{int a[]={1,4,8,9,3};
+int size= 5;
+int search;
+cout<<"enter element for search:-";
+cin>>search;
+searching(a,search,size);
+}
