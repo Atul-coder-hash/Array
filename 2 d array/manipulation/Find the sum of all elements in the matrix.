@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+
+void printsum(int sum){
+
+    cout<<"sum:-"<<sum;
+}
+
+
+void printarray(int a[2][3])
+{int sum=0;
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+        sum=sum+a[i][j];
+        
+        }
+        
+    }
+    
+
+    printsum(sum);
+}
+void enteringarray(int a[2][3])
+{
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<3;j++)
+        {cout<<"enter element:-";
+            cin>>a[i][j];
+        }
+        cout<<endl;
+    }
+    
+    printarray(a);
+}
+int main()
+{int r,c;
+    
+    int a[2][3];
+    enteringarray(a);
+}
