@@ -7,7 +7,7 @@ void printsum(int sum){
 }
 
 
-void printarray(int a[2][3])
+void sumarray(int a[2][3])
 {int sum=0;
     for(int i=0;i<2;i++)
     {
@@ -33,7 +33,7 @@ void enteringarray(int a[2][3])
         cout<<endl;
     }
     
-    printarray(a);
+    sumarray(a);
 }
 int main()
 {int r,c;
